@@ -1,4 +1,4 @@
-import { Stretch, Brain, Smile, Eye, HeartPulse } from "lucide-react";
+import { Activity, Brain, Smile, Eye, HeartPulse } from "lucide-react";
 
 const benefits = [
   { icon: Stretch, title: "Improves Flexibility & Strength", description: "Build a stronger, more supple body with consistent practice." },
