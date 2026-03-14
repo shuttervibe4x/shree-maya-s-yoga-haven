@@ -18,10 +18,10 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center py-32">
         <div className="max-w-3xl mx-auto">
-          <div className="inline-flex items-center gap-2 bg-card/20 backdrop-blur-sm rounded-full px-4 py-2 mb-8 animate-fade-in">
+          {/* <div className="inline-flex items-center gap-2 bg-card/20 backdrop-blur-sm rounded-full px-4 py-2 mb-8 animate-fade-in">
             <span className="text-yellow-400">★★★★★</span>
             <span className="text-primary-foreground text-sm font-body">5.0 from 51 Reviews</span>
-          </div>
+          </div> */}
 
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 leading-tight animate-fade-in-up">
             Transform Your Mind, Body & Soul Through Yoga

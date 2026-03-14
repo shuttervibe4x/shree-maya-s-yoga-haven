@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import { AnimatedSection } from "@/components/AnimatedSection";
 
 const LocationSection = () => {
-  const mapUrl = "https://maps.google.com/maps?q=L1B+Krishna+Marg+C+Scheme+Jaipur+Rajasthan+302001+India&t=&z=15&ie=UTF8&iwloc=&output=embed";
-  const directionsUrl = "https://www.google.com/maps/dir/?api=1&destination=L1B+Krishna+Marg+C+Scheme+Jaipur+Rajasthan+302001";
+  const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227749.05320895495!2d75.62574683476568!3d26.885115145593463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1773507782722!5m2!1sen!2sin";
+  const directionsUrl = "https://maps.app.goo.gl/TBxFjmpWo4xH4u3dA";
 
   return (
     <section id="location" className="py-20 md:py-28 bg-secondary">
@@ -25,8 +25,8 @@ const LocationSection = () => {
                   <MapPin className="w-6 h-6 text-accent" />
                 </div>
                 <div>
-                  <h3 className="font-heading text-xl font-bold text-foreground mb-2">Yoga by Shree Maya</h3>
-                  <p className="font-body text-muted-foreground leading-relaxed">L1B Krishna Marg<br />C Scheme, Jaipur, Rajasthan 302001<br />India</p>
+                  <h3 className="font-heading text-xl font-bold text-foreground mb-2">Ojas yoga & Pilates</h3>
+                  <p className="font-body text-muted-foreground leading-relaxed">Jaipur<br />Rajasthan 302001<br />India</p>
                 </div>
               </div>
               <a href={directionsUrl} target="_blank" rel="noopener noreferrer">

@@ -3,7 +3,7 @@ import { AnimatedSection, StaggerContainer, StaggerItem } from "@/components/Ani
 
 const testimonials = [
   { name: "Priya S.", text: "She's a great instructor with in-depth knowledge of yoga and meditation. My stress levels have reduced significantly since joining her classes." },
-  { name: "Rahul M.", text: "Shree Maya's private sessions completely transformed my flexibility and posture. Her personalized approach is what sets her apart." },
+  { name: "Rahul M.", text: " Private sessions completely transformed my flexibility and posture. Her personalized approach is what sets her apart." },
   { name: "Anita K.", text: "The meditation sessions are life-changing. I feel more focused, calm, and balanced in every aspect of my life. Highly recommended!" },
 ];
 
@@ -22,8 +22,8 @@ const TestimonialsSection = () => {
                 <Star key={i} className="w-5 h-5 fill-yellow-500 text-yellow-500" />
               ))}
             </div>
-            <span className="font-body font-bold text-foreground">5.0</span>
-            <span className="font-body text-muted-foreground">from 51 Happy Students</span>
+            <span className="font-body font-bold text-foreground">4.9</span>
+            <span className="font-body text-muted-foreground">from 500+ Happy Students</span>
           </div>
         </AnimatedSection>
 

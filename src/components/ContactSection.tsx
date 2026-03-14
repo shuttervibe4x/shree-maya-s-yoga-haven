@@ -40,14 +40,14 @@ const ContactSection = () => {
                 <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0"><Phone className="w-5 h-5 text-accent" /></div>
                 <div>
                   <p className="font-body text-sm text-muted-foreground">Call Us</p>
-                  <a href="tel:+919602266329" className="font-heading text-lg font-bold text-foreground hover:text-accent transition-colors">+91 96022 66329</a>
+                  <a href="tel:+91987654321" className="font-heading text-lg font-bold text-foreground hover:text-accent transition-colors">+91 987654321</a>
                 </div>
               </div>
               <div className="flex gap-4 items-center">
                 <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0"><Mail className="w-5 h-5 text-accent" /></div>
                 <div>
                   <p className="font-body text-sm text-muted-foreground">Email</p>
-                  <p className="font-heading text-lg font-bold text-foreground">info@yogabyshreemaya.com</p>
+                  <p className="font-heading text-lg font-bold text-foreground">info@yourcomapnyname.com</p>
                 </div>
               </div>
               <div>
